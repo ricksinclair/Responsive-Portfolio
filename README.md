@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-A responsive portfolio using vanilla CSS &amp; HTML5
+# Basic-Portfolio
+a professional portfolio site using HTML/CSS
