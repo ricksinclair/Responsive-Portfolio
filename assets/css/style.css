@@ -72,8 +72,7 @@ a:active {
 }
 
 .nav-wrapper {
-  max-width: 960px;
-  min-width: 475px;
+  width: 100%;
   margin-right: auto;
   padding-right: 25px;
   height: 50px;
@@ -140,6 +139,7 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 20px;
+  clear: both;
 }
 
 .nametag a {
@@ -151,7 +151,6 @@ a:active {
 .wrapper {
   padding-top: 130px;
   max-width: 960px;
-  min-width: 475px;
   margin: 0 auto 0 auto;
   text-align: left;
   min-height: 100%;
@@ -310,18 +309,27 @@ input::placeholder {
     clear: both;
   }
 
-  /* .nav ul li {
+  .nav ul li {
     clear: left;
     float: left;
-  } */
+  }
 
   .nav-wrapper,
   .nav {
-    height: 200px;
+    height: 25%;
   }
 
   .formz {
     word-wrap: break-word;
     text-overflow: ellipsis;
+  }
+
+  .homenav,
+  .nav li::before {
+    content: "| ";
+  }
+
+  .wrapper {
+    padding-top: 43%;
   }
 }
