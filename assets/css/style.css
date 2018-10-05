@@ -196,6 +196,10 @@ a:active {
   border-bottom: 5px solid cadetblue;
 }
 
+.formz {
+  width: 100%;
+}
+
 /*  */
 .social-footer {
   background-color: cadetblue;
@@ -296,10 +300,10 @@ input::placeholder {
   font-size: 1.2em;
   font-style: italic;
 }
-x
+
 /* Responsive Bits */
 
-@media (max-width: 475px) {
+@media (max-width: 499px) {
   .nav,
   .wrapper,
   .nav-wrapper .contact .social-footer {
@@ -319,12 +323,12 @@ x
   .nav-wrapper,
   .nav {
     height: 25%;
-    padding-bottom: 20%;
+    padding-bottom: 16%;
   }
 
   .formz {
+    width: 70%;
     word-wrap: break-word;
-    text-overflow: ellipsis;
   }
 
   .homenav,
@@ -332,7 +336,8 @@ x
     content: "| ";
   }
 
-  .wrapper {
+  .wrapper,
+    .content {
     padding-top: 43%;
   }
 
@@ -388,3 +393,38 @@ x
     clear: both;
   }
 }
+.formz ,
+.row,
+form,
+label,
+textarea{
+align-content: center;
+width:95%;
+
+}
+
+.col-25 {
+  float: none;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 599px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }

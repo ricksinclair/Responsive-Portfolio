@@ -92,3 +92,25 @@ a.fill-div {
   width: 100%;
   text-decoration: none;
 }
+
+
+@media (max-width: 599px) {
+  .gal-grid li {
+    width: 256px;
+    height: 256px;
+
+  }
+
+  @media (max-width: 335px) {
+    .gal-grid li {
+      width: 200px;
+      height: 200px;
+  
+    }
+
+    @media (max-width: 200px) {
+      .gal-grid li {
+        width: 100px;
+        height: 100px;
+    
+      }
