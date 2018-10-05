@@ -317,6 +317,7 @@ input::placeholder {
   .nav-wrapper,
   .nav {
     height: 25%;
+    /* padding-bottom: 20%; */
   }
 
   .formz {
@@ -331,5 +332,57 @@ input::placeholder {
 
   .wrapper {
     padding-top: 43%;
+  }
+
+  .portrait {
+    height: 200px;
+    width: 200px;
+  }
+
+  .content {
+    padding-top: 10%;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav,
+  .wrapper,
+  .nav-wrapper .contact .social-footer {
+    display: flex;
+    flex-flow: column;
+  }
+  .portrait,
+  .biotext {
+    clear: both;
+  }
+
+  .nav ul li {
+    clear: left;
+    float: left;
+  }
+
+  .nav-wrapper,
+  .nav {
+    height: 25%;
+    padding-bottom: 20%;
+  }
+
+  .homenav,
+  .nav li::before {
+    content: "| ";
+  }
+
+  .content,
+  .wrapper {
+    padding-top: 40%;
+  }
+
+  .portrait {
+    height: 175px;
+    width: 175px;
+  }
+
+  .nametag {
+    clear: both;
   }
 }
