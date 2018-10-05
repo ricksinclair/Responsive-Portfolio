@@ -296,6 +296,8 @@ input::placeholder {
   font-size: 1.2em;
   font-style: italic;
 }
+x
+/* Responsive Bits */
 
 @media (max-width: 475px) {
   .nav,
@@ -317,7 +319,7 @@ input::placeholder {
   .nav-wrapper,
   .nav {
     height: 25%;
-    /* padding-bottom: 20%; */
+    padding-bottom: 20%;
   }
 
   .formz {
