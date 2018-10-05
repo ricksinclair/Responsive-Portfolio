@@ -150,7 +150,7 @@ a:active {
 
 .wrapper {
   padding-top: 130px;
-  max-width: 960px;
+  max-width: 90%;
   margin: 0 auto 0 auto;
   text-align: left;
   min-height: 100%;
@@ -346,9 +346,7 @@ input::placeholder {
     width: 200px;
   }
 
-  .content {
-    padding-top: 10%;
-  }
+ 
 }
 
 @media (max-width: 375px) {
@@ -392,7 +390,11 @@ input::placeholder {
   .nametag {
     clear: both;
   }
+
+
 }
+
+
 .formz ,
 .row,
 form,
